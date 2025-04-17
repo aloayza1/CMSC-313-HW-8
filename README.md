@@ -7,10 +7,20 @@ Purpose of Software:
   1. Have grader download files
   2. Compile and analyze files for C and C++
 
-Files:
+Files: matrix.cpp and matrix.c
 
-Build Instructions:
+Build Instructions: compile matrix.cpp using 
 
-Testing Methodology:
+g++ matrix.cpp -o matrix
+
+run using ./matrix
+
+compile matrix.c using 
+
+gcc -std=c99 matrix.c -o matrixc
+
+run using ./matrixc
+
+Testing Methodology: testing matrix computations using set matrices to find D = A + (3*B) x C^T
 
 Additional Information: 
